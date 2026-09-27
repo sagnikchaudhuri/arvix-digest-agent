@@ -8,7 +8,7 @@ Run:
 python -m arxiv_digest
 
 Verified:
-105 tests passed
+108 tests passed
 Example paper: 2601.16325v1
 QA demonstrates grounded and out-of-paper refusal behavior.
 
