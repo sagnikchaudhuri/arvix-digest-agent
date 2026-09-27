@@ -3,6 +3,7 @@
 
 Python 3.11
 Ollama + llama3.2:3b
+
 Run:
 python -m arxiv_digest
 
