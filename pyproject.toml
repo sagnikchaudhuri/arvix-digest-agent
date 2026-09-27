@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arxiv-digest-agent"
+version = "0.1.0"
+description = "An agent for digesting arXiv papers and answering questions about them."
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "arxiv",
+    "chromadb",
+    "google-genai",
+    "langgraph",
+    "mistralai",
+    "pypdf",
+    "python-dotenv",
+    "sentence-transformers",
+]
+
+[project.scripts]
+digest = "arxiv_digest.cli.main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

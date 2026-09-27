@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.tox/
+.coverage
+*.coverage.*
+htmlcov/
+*.log
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+.env/
+.env.*
+!.env.example
+
+# Local data and downloaded papers
+data/
+*.pdf
+*.sqlite
+*.sqlite3
+*.db
+
+# Model weights and caches (normally stored outside the project)
+.cache/
+**/.cache/
+models/
+**/models/
+ollama/
+**/ollama/
+
+# Secrets and local credentials
+*.pem
+*.key
+secrets.*
+credentials.*
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
