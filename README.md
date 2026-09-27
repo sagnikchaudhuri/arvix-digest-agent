@@ -134,9 +134,6 @@ gravity in flat spacetime; it is not a full GR unification and does not address
 quantum aspects.
 Source: 2601.16325v1:0004:7cf2d89037f1, page 1
 
-Question: What is the capital of France?
-Answer: The answer is not found in the available paper text.
-Grounded in retrieved paper evidence: no
 Question: exit
 Goodbye.
 ```
