@@ -108,37 +108,55 @@ The installed console script is also available as `digest`. Enter a topic, arXiv
 Verified against arXiv paper `2601.16325v1` in one CLI session:
 
 ```text
-Research topic, arXiv ID, or URL: 2601.16325v1
-Title: Does Gravity Care About Electric Charge? A Minimalist Model and Experimental Test
-Authors: Renato Vieira dos Santos | arXiv: 2601.16325v1 | Published: 2026-01-22
-Summary: Precision tests of the weak equivalence principle minimize electric
-charge, leaving the charge-dependent question experimentally open. The paper
-proposes a torsion-balance test that varies charge-to-mass ratio (q/m).
-Problem: Existing precision tests use neutral or nearly neutral masses.
-Method: Treat q/m as a controlled variable in a modified torsion-balance test.
-Key results: Existing high-precision tests are insensitive to the proposed effect
-because they use neutral or nearly neutral test masses.
-Limitations: The model uses linearized gravity and leaves fuller theoretical
-extensions for future work.
-Suggested questions: How does the paper evaluate its approach? What limitations
-do the authors identify?
+Research topic, arXiv ID, or URL (exit to quit): 2601.16325v1
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|█████████████████████████████████████████████████████████████| 103/103 [00:00<00:00, 2591.27it/s]
+Preparing grounded paper briefing...
+Paper briefing generated.
 
-Question: What problem does this paper address?
-Answer: Existing high-precision weak-equivalence-principle tests use neutral or
-nearly neutral test masses, so they are blind to the proposed charge-dependent effect.
-Source: 2601.16325v1:0022:7e0db673d3cc, page 4
+========================================================================
+Does Gravity Care About Electric Charge? A Minimalist Model and Experimental Test
+Authors: Renato Vieira dos Santos
+arXiv: 2601.16325v1 | Published: 2026-01-22
+https://arxiv.org/abs/2601.16325v1
+========================================================================
 
-Question: What limitations do the authors identify?
-Answer: The work uses classical Maxwell electrodynamics and linearized weak-field
-gravity in flat spacetime; it is not a full GR unification and does not address
-quantum aspects.
-Source: 2601.16325v1:0004:7cf2d89037f1, page 1
+Plain-English summary
+Precision tests of the weak equivalence principle achieve remarkable sensitivity but deliberately minimize electric charge on test masses, leaving this fundamental question experimentally open. This reveals a significant gap in our experimental knowledge of gravity, a gap we propose to fill with a modified tor- sion balance experiment that treatsq/m as a controlled variable rather than a background to be eliminated.
 
-Question: exit
+Problem
+Precision tests of the weak equivalence principle achieve remarkable sensitivity but deliberately minimize electric charge on test masses, leaving this fundamental question experimentally open.
+
+Method / approach
+This reveals a significant gap in our experimental knowledge of gravity, a gap we propose to fill with a modified tor- sion balance experiment that treatsq/m as a controlled variable rather than a background to be eliminated.
+
+Key results
+Precision tests of the weak equivalence principle achieve remarkable sensitivity but deliberately minimize electric charge on test masses, leaving this fundamental question experimentally open.
+
+Limitations
+We have de- liberately chosen a linear formulation in the complex current to maintain transparency and direct testability, leaving more complete theoretical extensions (variational actions, embedding in non-linear general relativity) for future work, should experimental evidence warrant it.
+
+Suggested follow-up questions
+  - How does the paper evaluate its proposed approach?
+  - What limitations do the authors identify?
+
+Question (reset for another paper, exit to quit): What problem does this paper address?
+
+Answer: Crucially, for neutral matter (q = 0), the violation vanishes, explaining why existing high-precision WEP tests, which deliberately use neutral or nearly neutral test masses, are blind to this effect. The prediction occupies virgin experimental territory precisely because it targets a regime (q/m varied and non-zero) that has been systematically avoided to suppress electrostatic backgrounds. Phenomenological stance and limitations This model is presented as aminimal phenomenological parameterizationthat captures a possible charge-induced violation of the weak equivalence principle. We have de- liberately chosen a linear formulation in the complex current to maintain transparency and direct testability, leaving more complete theoretical extensions (variational actions, embedding in non-linear general relativity) for future work, should experimental evidence warrant it. Our primary aim is to highlight an experimental regime that, to the best of our knowledge,has not been system- atically investigatedin high-precision WEP tests—since such experiments deliberately suppress electrostatic back- grounds by minimizing charge-to-mass ratios—and to provide a clean, one-parameter target for a
+Sources
+  2601.16325v1:0022:7e0db673d3cc (page 4): “Crucially, for neutral matter (q = 0), the violation vanishes, explaining why existing high-precision WEP tests, which deliberately use neutral or nearly neutral test masses, are blind to this effect. The prediction occupies virgin experimental territory precisely because it targets a regime (q/m varied and non-zero) that has been systematically avoided to suppress electrostatic backgrounds. Phenomenological stance and limitations This model is presented as aminimal phenomenological parameterizationthat captures a possible charge-induced violation of the weak equivalence principle. We have de- liberately chosen a linear formulation in the complex current to maintain transparency and direct testability, leaving more complete theoretical extensions (variational actions, embedding in non-linear general relativity) for future work, should experimental evidence warrant it. Our primary aim is to highlight an experimental regime that, to the best of our knowledge,has not been system- atically investigatedin high-precision WEP tests—since such experiments deliberately suppress electrostatic back- grounds by minimizing charge-to-mass ratios—and to provide a clean, one-parameter target for a”
+
+Question (reset for another paper, exit to quit): What limitations do the authors identify?
+
+Answer: dictions while introducing minimal additional structure. Second, it identifies and proposes to test an unexplored regimeofexperimentalgravity. Beyonditsspecificpredic- tions, the framework illustrates how theoretical minimal- ism can reveal overlooked opportunities in fundamental physics. Scope and limitations.We work exclusively with clas- sical Maxwell electrodynamics and linearized gravity in the weak-field approximation (gravitoelectromagnetism [3]), in flat spacetime. This is not a full unification with general relativity, nor does it address quantum as- pects; rather, it is an effective description that isolates the core conceptual issues of EM-gravity coupling while preserving mathematical transparency and testability. The restriction to linearized gravity is not only math- ematically convenient but also physically justified: the experiments we propose (torsion balances, free-fall tests, atom interferometry) operate in the weak-field regime 1 arXiv:2601.16325v1 [gr-qc] 22 Jan 2026
+Sources
+  2601.16325v1:0004:7cf2d89037f1 (page 1): “dictions while introducing minimal additional structure. Second, it identifies and proposes to test an unexplored regimeofexperimentalgravity. Beyonditsspecificpredic- tions, the framework illustrates how theoretical minimal- ism can reveal overlooked opportunities in fundamental physics. Scope and limitations.We work exclusively with clas- sical Maxwell electrodynamics and linearized gravity in the weak-field approximation (gravitoelectromagnetism [3]), in flat spacetime. This is not a full unification with general relativity, nor does it address quantum as- pects; rather, it is an effective description that isolates the core conceptual issues of EM-gravity coupling while preserving mathematical transparency and testability. The restriction to linearized gravity is not only math- ematically convenient but also physically justified: the experiments we propose (torsion balances, free-fall tests, atom interferometry) operate in the weak-field regime 1 arXiv:2601.16325v1 [gr-qc] 22 Jan 2026”
+
+Question (reset for another paper, exit to quit): exit
 Goodbye.
 ```
 
-The two paper questions returned citations from their retrieved chunks. The unrelated question was rejected, without a citation or outside-knowledge answer. The selected paper and QA history remained in the same graph session between questions.
+The two paper questions returned citations from their retrieved chunks and also mentioned their source of information. The selected paper and QA history remained in the same graph session between questions.
 
 ## Retrieval and Parsing
 
