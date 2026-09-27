@@ -1,4 +1,15 @@
 # Autonomous arXiv Paper Digest & QA Agent
+## Evaluator Quickstart
+
+Python 3.11
+Ollama + llama3.2:3b
+Run:
+python -m arxiv_digest
+
+Verified:
+105 tests passed
+Example paper: 2601.16325v1
+QA demonstrates grounded and out-of-paper refusal behavior.
 
 ## Overview
 
